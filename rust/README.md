@@ -24,7 +24,7 @@ SPARTA is an acronym that stands for **S**emantics, **PART**itioning and **A**bs
 
 SPARTA for C++ is the analytic engine that powers most optimization passes of the [ReDex](https://github.com/facebook/redex) Android bytecode optimizer. The ReDex codebase contains multiple examples of analyses built with SPARTA that run at industrial scale. The [interprocedural constant propagation](https://github.com/facebook/redex/tree/main/service/constant-propagation) illustrates how to assemble the building blocks provided by SPARTA in order to implement a sophisticated yet scalable analysis.
 
-## SPARTA in Rust
+## SPARTA for Rust
 
 SPARTA for Rust is published as a crate on [crates.io](https://crates.io/crates/sparta). It is still in an experimental stage and there's no guarantee that the API won't change. So far, we have reimplemented the basic functions found in the C++ version, namely:
 
